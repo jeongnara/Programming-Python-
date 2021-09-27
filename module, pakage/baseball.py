@@ -1,3 +1,5 @@
+from baseball_game_engine import make_answer, check
+
 answer = make_answer()
 #무한반복
 while True:

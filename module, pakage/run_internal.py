@@ -33,11 +33,11 @@ print(random.sample(list1, 2))  #랜덤으로 n개 뽑기
 # print(birthday)
 # print(now - birthday)
 
-#내가 태어난 날로부터 며칠이 지났는지?
-# import  datetime
-# now = datetime.datetime.now()
-# birthday = datetime.datetime(2004, 1, 26)
-# print(now - birthday)
+# 내가 태어난 날로부터 며칠이 지났는지?
+import  datetime
+now = datetime.datetime.now()
+birthday = datetime.datetime(2004, 1, 26)
+print(now - birthday)
 
 #올해 크리스마스까지 며칠이 남았는지?
 # import datetime
